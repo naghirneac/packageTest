@@ -1,0 +1,12 @@
+{
+    "name": "ana/package-test",
+    "type": "library",
+    "require": {
+        "moontoast/math": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyLibrary\\": "src/"
+        }
+    }
+}
